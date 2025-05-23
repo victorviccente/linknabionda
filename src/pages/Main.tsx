@@ -1,4 +1,3 @@
-import React from 'react';
 import carreira from '../assets/carreira.png'
 import ia from '../assets/ia.png'
 import nda from '../assets/nda.png'
