@@ -1,10 +1,10 @@
-import carreira from "../assets/carreira.png";
 import ia from "../assets/ia.png";
 import nda from "../assets/nda.png";
 import comunidade from "../assets/comunidade.png";
 import logo from "../assets/logo.png";
 import materiais from "../assets/materiais.png";
 import trabalheconosco from "../assets/trabalheconosco.png";
+import analisededados from "../assets/analisededados.png";
 
 // icons
 import {
@@ -31,7 +31,7 @@ export default function Main() {
           >
             <img
               src={nda}
-              alt="Pessoa trabalhando com dados"
+              alt="Next Devs Academy"
               className="w-full h-full object-cover max-md:object-contain"
             />
           </a>
@@ -42,7 +42,7 @@ export default function Main() {
           >
             <img
               src={comunidade}
-              alt="Marketing e análise de dados"
+              alt="Comunidade"
               className="w-full h-full object-cover max-md:object-contain"
             />
           </a>
@@ -52,8 +52,8 @@ export default function Main() {
             className="block border-[5px] border-[#00AFEF] rounded-2xl h-90 max-md:h-48 bg-transparent overflow-hidden flex items-center justify-center max-md:bg-black hover:scale-105 hover:shadow-lg transition-transform duration-300"
           >
             <img
-              src={carreira}
-              alt="Especialista em projetos"
+              src={analisededados}
+              alt="Análise de dados"
               className="w-full h-full object-cover max-md:object-contain"
             />
           </a>
@@ -64,7 +64,7 @@ export default function Main() {
           >
             <img
               src={ia}
-              alt="Engenheira de software"
+              alt="Inteligência Artificial"
               className="w-full h-full object-cover max-md:object-contain"
             />
           </a>
@@ -75,7 +75,7 @@ export default function Main() {
           >
             <img
               src={materiais}
-              alt="Engenheira de software"
+              alt="Materiais de ensino"
               className="w-full h-full object-cover max-md:object-contain"
             />
           </a>
@@ -86,7 +86,7 @@ export default function Main() {
           >
             <img
               src={trabalheconosco}
-              alt="Engenheira de software"
+              alt="Trabalhe conosco"
               className="w-full h-full object-cover max-md:object-contain"
             />
           </a>
