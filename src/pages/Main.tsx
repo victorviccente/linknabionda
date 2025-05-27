@@ -3,6 +3,8 @@ import ia from "../assets/ia.png";
 import nda from "../assets/nda.png";
 import comunidade from "../assets/comunidade.png";
 import logo from "../assets/logo.png";
+import materiais from "../assets/materiais.png";
+import trabalheconosco from "../assets/trabalheconosco.png";
 
 // icons
 import {
@@ -18,13 +20,7 @@ export default function Main() {
         <img src={logo} alt="Logo" height={40} width={80} />
       </header>
       <div className="max-w-6xl mx-auto py-6">
-        {/* Header */}
-        <div className="text-center mb-12">
-          <p className="text-gray-300 text-lg max-w-3xl mx-auto mt-4">
-            Somos uma Edtech fundada em 2025, com um propósito claro:
-            transformar carreiras e gerar resultados reais.
-          </p>
-        </div>
+        
 
         {/* Cards Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -40,7 +36,8 @@ export default function Main() {
             />
           </a>
           <a
-            href="/link2"
+            href="https://chat.whatsapp.com/Et1v8rhOw7hH85OXlwkAwg"
+            target="_blank"
             className="block border-[5px] border-[#00AFEF] rounded-2xl h-90 max-md:h-48 bg-transparent overflow-hidden flex items-center justify-center max-md:bg-black hover:scale-105 hover:shadow-lg transition-transform duration-300"
           >
             <img
@@ -50,7 +47,8 @@ export default function Main() {
             />
           </a>
           <a
-            href="/link3"
+            href="https://www.nextdevsacademy.com.br/cursos/python"
+            target="_blank"
             className="block border-[5px] border-[#00AFEF] rounded-2xl h-90 max-md:h-48 bg-transparent overflow-hidden flex items-center justify-center max-md:bg-black hover:scale-105 hover:shadow-lg transition-transform duration-300"
           >
             <img
@@ -60,11 +58,34 @@ export default function Main() {
             />
           </a>
           <a
-            href="/link4"
+            href="https://www.nextdevsacademy.com.br/cursos/ia"
+            target="_blank"
             className="block border-[5px] border-[#00AFEF] rounded-2xl h-90 max-md:h-48 bg-transparent overflow-hidden flex items-center justify-center max-md:bg-black hover:scale-105 hover:shadow-lg transition-transform duration-300"
           >
             <img
               src={ia}
+              alt="Engenheira de software"
+              className="w-full h-full object-cover max-md:object-contain"
+            />
+          </a>
+          <a
+            href="https://www.nextdevsacademy.com.br/ebook"
+            target="_blank"
+            className="block border-[5px] border-[#00AFEF] rounded-2xl h-90 max-md:h-48 bg-transparent overflow-hidden flex items-center justify-center max-md:bg-black hover:scale-105 hover:shadow-lg transition-transform duration-300"
+          >
+            <img
+              src={materiais}
+              alt="Engenheira de software"
+              className="w-full h-full object-cover max-md:object-contain"
+            />
+          </a>
+          <a
+            href="https://www.linkedin.com/company/nextdevsacademy"
+            target="_blank"
+            className="block border-[5px] border-[#00AFEF] rounded-2xl h-90 max-md:h-48 bg-transparent overflow-hidden flex items-center justify-center max-md:bg-black hover:scale-105 hover:shadow-lg transition-transform duration-300"
+          >
+            <img
+              src={trabalheconosco}
               alt="Engenheira de software"
               className="w-full h-full object-cover max-md:object-contain"
             />
